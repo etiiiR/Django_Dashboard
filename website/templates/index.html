@@ -27,8 +27,9 @@
 	<main>
 		<div class="content">
 			<h1>Dashboard</h1>
-			{% for arti in object_list %}
-			<a target="_blank" href="https://www.behance.net/doonnnx"></a>
+			<div class="card-container">
+					{% for arti in object_list %}
+					
 				<div class="thecard">
 				  <div class="card-img">
 					<img src="{{ arti.image.url }}" >
@@ -47,6 +48,7 @@
 				</a>
 				{% endfor %}
 			</div>
+		</div>
 		<!-- all your content here -->
 	</main>
 	

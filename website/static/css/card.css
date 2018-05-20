@@ -109,3 +109,21 @@ body {
     padding: 1px 6px;
     border-radius: 50em;
   }
+
+  .card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    
+}
+
+
+
+
+
+
+
