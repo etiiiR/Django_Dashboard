@@ -27,23 +27,25 @@
 	<main>
 		<div class="content">
 			<h1>Dashboard</h1>
+			{% for arti in object_list %}
 			<a target="_blank" href="https://www.behance.net/doonnnx"></a>
 				<div class="thecard">
 				  <div class="card-img">
-					<img src="https://vignette.wikia.nocookie.net/dark/images/1/1f/Netflix.png/revision/latest?cb=20171121191207&path-prefix=de">
+					<img src="{{ arti.image.url }}" >
 				  </div>
 				  <div class="card-caption">
 					<i id="like-btn" <i class="fas fa-check"></i>
 					<span class="date">Thursday, July 16, 2015</span>
-					<h2>The standard chunk of Lorem Ipsum</h2>
-					<p>Sed posuere consectetur est at lobortis. Aenean eu leo quam.</p>
+					<h2>{{ arti.title }}</h2>
+					<p>{{ arti.text }}</p>
 				  </div>
 				  <div class="card-outmore">
 					<h5>Read more</h5>
 					<i id="outmore-icon" class="fa fa-angle-right"></i>
 				  </div>
 				</div>
-			  </a>
+				</a>
+				{% endfor %}
 			</div>
 		<!-- all your content here -->
 	</main>
