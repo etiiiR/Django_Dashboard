@@ -7,5 +7,6 @@ from . import views
 urlpatterns = [
 
     path('', views.ArticleListView.as_view(), name='home' ),
+    path('projekt/', views.ProjektView.as_view(), name='projekt' ),
     path('article/<int:pk>', views.ArticleDetailView.as_view(), name='article_page' ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
