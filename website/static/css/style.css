@@ -28,7 +28,7 @@ Main Components
 -------------------------------- */
 .cd-header {
   height: 80px;
-  width: 90%;
+  width: 10%;
   margin: 0 auto;
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
@@ -70,17 +70,19 @@ Main Components
 }
 
 .cd-3d-nav-trigger {
-  position: absolute;
+  position: sticky;
   float: right;
   height: 45px;
   width: 45px;
-  margin-top: 18px;
-  /* replace text with background image */
+  margin-top: -25px;
+  margin-right: 40px;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
 }
+
+
 .cd-3d-nav-trigger span,
 .cd-3d-nav-trigger span::before,
 .cd-3d-nav-trigger span::after {

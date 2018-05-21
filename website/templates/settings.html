@@ -1,0 +1,27 @@
+{% extends "parent.html" %}
+{% block content %}
+<div class="content">
+			<h1>Settings</h1>
+			<div class="card-container">
+					{% for arti in object_list %}
+					
+				<div class="thecard">
+				  <div class="card-img">
+					<img src="{{ arti.image.url }}" >
+				  </div>
+				  <div class="card-caption">
+					<i id="like-btn" <i class="fas fa-check"></i>
+					<span class="date">Thursday, July 16, 2015</span>
+					<h2>{{ arti.title }}</h2>
+					<p>{{ arti.text }}</p>
+				  </div>
+				  <div class="card-outmore">
+					<h5>Read more</h5>
+					<i id="outmore-icon" class="fa fa-angle-right"></i>
+				  </div>
+				</div>
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+		{% endblock content %}

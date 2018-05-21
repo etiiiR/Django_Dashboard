@@ -17,3 +17,16 @@ class ArticleDetailView(DetailView):
 class ProjektView(ListView):
     model = Article
     template_name = 'projekt.html'
+
+
+class ImageView(ListView):
+    model = Article
+    template_name = 'image.html'
+
+class SettingsView(ListView):
+    model = Article
+    template_name = 'settings.html'
+
+class NewView(ListView):
+    model = Article
+    template_name = 'new.html'
