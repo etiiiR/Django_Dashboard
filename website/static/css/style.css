@@ -28,8 +28,13 @@ Main Components
 -------------------------------- */
 .cd-header {
   height: 80px;
+<<<<<<< HEAD
   width: 100%;
   margin-left: 33px;
+=======
+  width: 10%;
+  margin: 0 auto;
+>>>>>>> parent of 8c52685... fix css
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
   transition: transform 0.5s;
@@ -66,16 +71,13 @@ Main Components
 }
 
 .cd-logo {
-  float: left;
   margin-top: 28px;
 }
 
 .cd-3d-nav-trigger {
   position: sticky;
-  float: right;
   height: 45px;
   width: 45px;
-  margin-right: 55px;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
