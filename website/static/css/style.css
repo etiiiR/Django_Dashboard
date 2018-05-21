@@ -61,6 +61,7 @@ Main Components
     -ms-transform: translateY(170px);
     -o-transform: translateY(170px);
     transform: translateY(170px);
+    margin-top: -25px;
   }
 }
 
@@ -74,7 +75,6 @@ Main Components
   float: right;
   height: 45px;
   width: 45px;
-  margin-top: -25px;
   margin-right: 55px;
   overflow: hidden;
   text-indent: 100%;
