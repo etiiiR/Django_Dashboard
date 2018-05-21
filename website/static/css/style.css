@@ -28,7 +28,7 @@ Main Components
 -------------------------------- */
 .cd-header {
   height: 80px;
-  width: 10%;
+  width: 100%;
   margin: 0 auto;
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
@@ -75,7 +75,7 @@ Main Components
   height: 45px;
   width: 45px;
   margin-top: -25px;
-  margin-right: 40px;
+  margin-right: 25px;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
